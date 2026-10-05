@@ -1,0 +1,61 @@
+[
+  {
+    "tarea": "consulta_velas_7d",
+    "id": "ced541c9-14c8-479d-bdb7-c4a179421840",
+    "estado": "SUCCESS",
+    "duracion_s": 0.16,
+    "resultado": {
+      "ok": true,
+      "symbol": "DOGUSD",
+      "registros": 168,
+      "periodo_real": [
+        "2026-09-28 00:00:00+00:00",
+        "2026-10-04 23:00:00+00:00"
+      ]
+    }
+  },
+  {
+    "tarea": "consulta_velas_sin_datos",
+    "id": "d7f15773-8c02-4830-9c1d-b0d63ad8fdf6",
+    "estado": "SUCCESS",
+    "duracion_s": 0.5,
+    "resultado": {
+      "ok": true,
+      "symbol": "DOGUSD",
+      "registros": 25,
+      "periodo_real": [
+        "2025-01-01 00:00:00+00:00",
+        "2025-01-02 00:00:00+00:00"
+      ]
+    }
+  },
+  {
+    "tarea": "generar_graficas",
+    "id": "abedce38-c73c-45d1-9762-524bf7a958fc",
+    "estado": "SUCCESS",
+    "duracion_s": 0.5,
+    "resultado": {
+      "ok": true,
+      "symbol": "DOGUSD",
+      "graficas": [
+        "C:\\Users\\USER\\Documents\\Proyecto predeterminado\\DOG\\DOGUSD\\charts\\dogusd_cierre_h1.png"
+      ]
+    }
+  },
+  {
+    "tarea": "elaborar_excel",
+    "id": "d99c5392-b5ed-4526-b33a-ba28c3ad7721",
+    "estado": "SUCCESS",
+    "duracion_s": 0.5,
+    "resultado": {
+      "ok": true,
+      "excel": "C:\\Users\\USER\\Documents\\Proyecto predeterminado\\DOG\\DOGUSD\\reports\\reporte_dogusd.xlsx",
+      "hojas": [
+        "Velas_dogusd",
+        "Resumen_diario",
+        "Calidad",
+        "Metadatos"
+      ]
+    }
+  }
+]

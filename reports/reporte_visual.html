@@ -1,0 +1,245 @@
+<html><head><meta charset='utf-8'><title>Reporte visual — Análisis LINK (demo, solo consulta)</title>
+    <style>
+      :root { --bg:#0f172a; --card:#ffffff; --accent:#2563eb; --accent2:#16a34a; --text:#1e293b; --muted:#64748b; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:linear-gradient(135deg,#e0e7ff 0%,#f8fafc 40%,#ecfeff 100%); font-family:'Segoe UI',Roboto,Arial,sans-serif; color:var(--text); }
+      .wrap { max-width:1100px; margin:0 auto; padding:32px 20px 64px; }
+      header { background:linear-gradient(90deg,#1e3a8a,#2563eb); color:white; padding:28px 32px; border-radius:16px; box-shadow:0 10px 24px rgba(37,99,235,.25); margin-bottom:28px; }
+      header h1 { margin:0 0 6px; font-size:1.8rem; }
+      header p { margin:0; opacity:.85; }
+      .card { background:var(--card); border-radius:14px; padding:22px 26px; margin:0 0 22px; box-shadow:0 4px 14px rgba(15,23,42,.08); border:1px solid #e2e8f0; }
+      .card h2 { margin-top:0; color:var(--accent); border-bottom:2px solid #e0e7ff; padding-bottom:8px; }
+      .card p { line-height:1.55; }
+      .card img { width:100%; max-width:900px; border:1px solid #e2e8f0; border-radius:10px; margin:12px 0 4px; box-shadow:0 4px 10px rgba(0,0,0,.06); }
+      table { border-collapse:collapse; width:100%; margin:10px 0; font-size:.9rem; }
+      th,td { border:1px solid #e2e8f0; padding:8px 10px; text-align:left; }
+      th { background:#eff6ff; }
+      .badge { display:inline-block; background:#dcfce7; color:#166534; padding:2px 10px; border-radius:999px; font-size:.75rem; font-weight:600; }
+      footer { text-align:center; color:var(--muted); margin-top:40px; font-size:.85rem; }
+    </style>
+    </head><body><div class='wrap'>
+<header><h1>Reporte visual — Análisis LINK (demo, solo consulta)</h1>
+<p>Generado: 2026-10-04T23:12:37.017250+00:00 UTC</p></header>
+<div class='card'>
+<h2>Actividad 1 — Identificación de LINK (Interlink Electronics)</h2>
+<p>Cuenta DEMO MetaQuotes. Símbolo exacto de LINK en este broker: `DOGUSD` — Dogecoin vs US Dollar (USD/USD). Total de símbolos con 'LINK': 0.</p>
+</div>
+<div class='card'>
+<h2>Actividad 2 — Precio actual</h2>
+<p>Compra (ask): 0.0968, venta (bid): 0.0959, spread: 0.0009 USD. Hora de la cotización: 2026-10-05 02:11:22+00:00 UTC. ⚠️ Tick de viernes 02/10 (feed congelado o mercado cerrado por fin de semana).</p>
+</div>
+<div class='card'>
+<h2>Actividad 3 — Lectura inicial (100 velas H1)</h2>
+<p>Columnas: ['open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume']. Período: 2026-09-30 22:00:00+00:00 → 2026-10-05 01:00:00+00:00 (UTC), 100 registros.</p>
+</div>
+<div class='card'>
+<h2>Actividad 4 — Consulta por fechas</h2>
+<p>Período solicitado: 2026-09-27 → 2026-10-04. Obtenido: 2026-09-28 00:00:00+00:00 → 2026-10-04 23:00:00+00:00 (UTC), 168 registros.</p>
+</div>
+<div class='card'>
+<h2>Actividad 5 — Calidad de datos</h2>
+<p>Nulos por columna: {'open': 0, 'high': 0, 'low': 0, 'close': 0, 'tick_volume': 0, 'spread': 0, 'real_volume': 0}. Fechas duplicadas: 0. Intervalos horarios sin registros: 0. Posible causa: mercados cerrados el fin de semana y feed demo sintético; el conteo de cierres puede tener huecos donde el servidor no emitió vela.</p>
+</div>
+<div class='card'>
+<h2>Actividad 6 — Evolución del precio (cierre)</h2>
+<p>Período: 2026-09-28 00:00:00+00:00 → 2026-10-04 23:00:00+00:00 (UTC), 168 registros. Máximo: 0.10 (2026-09-28 00:00:00+00:00 UTC). Mínimo: 0.09 (2026-10-02 21:00:00+00:00 UTC).</p>
+<img src='../charts/act6_cierre.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 7 — Mayor movimiento dentro de una vela</h2>
+<p>Top 10 rangos (high-low) en USD:</p>
+<p>time</p>
+<p>2026-10-02 21:00:00+00:00    0.0</p>
+<p>2026-09-30 16:00:00+00:00    0.0</p>
+<p>2026-09-28 17:00:00+00:00    0.0</p>
+<p>2026-10-02 07:00:00+00:00    0.0</p>
+<p>2026-09-30 17:00:00+00:00    0.0</p>
+<p>2026-09-30 15:00:00+00:00    0.0</p>
+<p>2026-09-29 18:00:00+00:00    0.0</p>
+<p>2026-09-28 19:00:00+00:00    0.0</p>
+<p>2026-10-02 17:00:00+00:00    0.0</p>
+<p>2026-09-28 08:00:00+00:00    0.0</p>
+<img src='../charts/act7_rangos.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 8 — Mayores subidas</h2>
+<p>Top 10 horas con mayor % de subida del cierre respecto a la hora anterior. Mayor subida: 2.01% en 2026-10-02 07:00:00+00:00 UTC.</p>
+<img src='../charts/act8_subidas.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 9 — Mayores caídas</h2>
+<p>Top 10 horas con mayor % de caída. Mayor caída: -3.72% en 2026-10-02 21:00:00+00:00 UTC.</p>
+<img src='../charts/act9_caidas.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 10 — Velas alcistas y bajistas</h2>
+<p>Conteo: {'bajista': 78, 'alcista': 74, 'doji': 16}. 168 velas H1 en 2026-09-28 00:00:00+00:00 → 2026-10-04 23:00:00+00:00 (UTC), 168 registros.</p>
+<img src='../charts/act10_tipos.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 11 — Resumen diario</h2>
+<p>Apertura/máx/mín/cierre y %Δ diario:</p>
+<p>                            open   high    low  close  tick_volume  change_pct</p>
+<p>time                                                                          </p>
+<p>2026-09-28 00:00:00+00:00  0.097  0.097  0.091  0.094         7134         NaN</p>
+<p>2026-09-29 00:00:00+00:00  0.094  0.096  0.091  0.094         4902       0.107</p>
+<p>2026-09-30 00:00:00+00:00  0.094  0.098  0.092  0.094         4775       0.427</p>
+<p>2026-10-01 00:00:00+00:00  0.094  0.096  0.093  0.094         3733       0.106</p>
+<p>2026-10-02 00:00:00+00:00  0.094  0.098  0.090  0.091         4325      -3.507</p>
+<p>2026-10-03 00:00:00+00:00  0.091  0.093  0.091  0.093         1008       2.093</p>
+<p>2026-10-04 00:00:00+00:00  0.093  0.096  0.092  0.095         1145       2.913</p>
+<img src='../charts/act11_cierre_diario.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 12 — Comparación de días</h2>
+<p>Mayor subida diaria: 2026-10-04 00:00:00+00:00 (2.91%). Mayor caída: 2026-10-02 00:00:00+00:00 (-3.51%). Mayor rango máx-mín: 2026-10-02 00:00:00+00:00. Coinciden en el mismo día cuando la jornada con más volatilidad también cierra con mayor variación.</p>
+<img src='../charts/act12_cambio_diario.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 13 — Comportamiento por hora</h2>
+<p>Movimiento % promedio por hora del día (UTC). Horas con mayor movimiento: [17, 21, 18].</p>
+<p>time</p>
+<p>0     0.485</p>
+<p>1     0.406</p>
+<p>2     0.380</p>
+<p>3     0.228</p>
+<p>4     0.485</p>
+<p>5     0.335</p>
+<p>6     0.551</p>
+<p>7     0.456</p>
+<p>8     0.562</p>
+<p>9     0.367</p>
+<p>10    0.654</p>
+<p>11    0.274</p>
+<p>12    0.367</p>
+<p>13    0.488</p>
+<p>14    0.273</p>
+<p>15    0.620</p>
+<p>16    0.449</p>
+<p>17    0.951</p>
+<p>18    0.715</p>
+<p>19    0.413</p>
+<p>20    0.593</p>
+<p>21    0.837</p>
+<p>22    0.457</p>
+<p>23    0.352</p>
+<img src='../charts/act13_hora.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 14 — Comportamiento por día de la semana</h2>
+<p>Se comparan lunes a domingo. La fuente proporcionó 48 velas H1 de fin de semana en el período.</p>
+<p>Lun    0.851</p>
+<p>Mar    0.556</p>
+<p>Mié    0.547</p>
+<p>Jue    0.376</p>
+<p>Vie    0.638</p>
+<p>Sáb    0.222</p>
+<p>Dom    0.236</p>
+<img src='../charts/act14_semana.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 15 — Media móvil 20 velas H1</h2>
+<p>SMA20 graficada junto al cierre. Cruces de cierre de debajo a encima de la SMA: 10 (['2026-09-28 23:00:00+00:00', '2026-09-29 02:00:00+00:00', '2026-09-29 08:00:00+00:00', '2026-09-30 12:00:00+00:00', '2026-10-01 04:00:00+00:00', '2026-10-01 14:00:00+00:00', '2026-10-01 20:00:00+00:00', '2026-10-02 06:00:00+00:00', '2026-10-03 15:00:00+00:00', '2026-10-04 10:00:00+00:00']).</p>
+<img src='../charts/act15_sma.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 16 — Variación reciente</h2>
+<p>Criterio: |cambio % horario| ≥ percentil 90 (1.10%). 10 casos destacados (cierre en esos instantes): [('2026-10-02 21:00:00+00:00', 0.09), ('2026-10-02 07:00:00+00:00', 0.1), ('2026-09-29 18:00:00+00:00', 0.09), ('2026-09-28 17:00:00+00:00', 0.09), ('2026-09-28 22:00:00+00:00', 0.09), ('2026-09-30 15:00:00+00:00', 0.1), ('2026-09-30 17:00:00+00:00', 0.09), ('2026-09-28 01:00:00+00:00', 0.1), ('2026-10-01 10:00:00+00:00', 0.09), ('2026-09-28 15:00:00+00:00', 0.09)].</p>
+<img src='../charts/act16_variacion.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 17 — Volumen de ticks</h2>
+<p>Top 10 velas por tick_volume. Los ticks cuentan actualizaciones de cotización del broker, no el volumen total de LINK del mercado.</p>
+<p>time</p>
+<p>2026-09-28 04:00:00+00:00    651</p>
+<p>2026-09-30 17:00:00+00:00    618</p>
+<p>2026-09-28 17:00:00+00:00    610</p>
+<p>2026-09-29 18:00:00+00:00    549</p>
+<p>2026-09-30 16:00:00+00:00    536</p>
+<p>2026-09-30 15:00:00+00:00    434</p>
+<p>2026-09-28 18:00:00+00:00    434</p>
+<p>2026-09-28 05:00:00+00:00    433</p>
+<p>2026-09-29 04:00:00+00:00    404</p>
+<p>2026-09-28 16:00:00+00:00    402</p>
+<img src='../charts/act17_volumen.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 18 — Dos escalas de tiempo</h2>
+<p>H1: 168 registros (7d). D1: 30 registros (~30d). Rango de cierre H1: 0.09–0.10. Rango D1: 0.08–0.10.</p>
+<img src='../charts/act18_h1.png' width='900'><br>
+<img src='../charts/act18_d1.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 19 — Celery y manejo de errores</h2>
+<p>Se despacharon 3 tareas (consulta de velas, gráficas, informe Excel) más una de período vacío. Estado/duración/resultado en output/reports/celery_log.json. Un período sin datos produce `ok:false` y un mensaje claro; no se genera Excel engañoso.</p>
+</div>
+<div class='card'>
+<h2>Actividad 20 — Reporte inicial y comprobación</h2>
+<p>Hojas: ['Velas_LINK', 'Resumen_diario', 'Mayores_movimientos', 'Calidad', 'Metadatos']. Verificación al releer con pandas (filas vs esperadas): {'Velas_LINK': {'rows': 168, 'expected': 168, 'ok': True}, 'Resumen_diario': {'rows': 7, 'expected': 7, 'ok': True}, 'Mayores_movimientos': {'rows': 10, 'expected': 10, 'ok': True}, 'Calidad': {'rows': 1, 'expected': 1, 'ok': True}, 'Metadatos': {'rows': 1, 'expected': 1, 'ok': True}, '_extra_sheets': [], '_missing_sheets': []}.</p>
+</div>
+<div class='card'>
+<h2>Actividad 21 — Cambio acumulado</h2>
+<p>Cambio % del cierre desde la 1ª vela. Máx: 0.00% (2026-09-28 00:00:00+00:00 UTC); Mín: -6.50% (2026-10-02 21:00:00+00:00 UTC).</p>
+<img src='../charts/act21_acumulado.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 22 — Rachas consecutivas</h2>
+<p>Rachas más largas de velas alcistas y bajistas consecutivas: {'alcista': {'hours': 5, 'start': '2026-10-04 16:00:00+00:00', 'end': '2026-10-04 20:00:00+00:00', 'price_change_pct': 2.151}, 'bajista': {'hours': 6, 'start': '2026-10-02 16:00:00+00:00', 'end': '2026-10-02 21:00:00+00:00', 'price_change_pct': -6.211}}.</p>
+</div>
+<div class='card'>
+<h2>Actividad 23 — Distancia frente al máximo reciente</h2>
+<p>Para cada vela, cierre vs máximo de las 24 velas anteriores; se muestran las 10 mayores distancias % (absolutas, en su mayoría caídas desde el máximo).</p>
+<img src='../charts/act23_distancia.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 24 — Recuperación después de una caída</h2>
+<p>5 mayores caídas horarias y precio 1h/6h/24h después (NaN = sin dato posterior en el feed):</p>
+<p>              caida_hora_UTC  caida_pct  close_+1h  close_+6h  close_+24h</p>
+<p>0  2026-10-02 21:00:00+00:00      -3.72     0.0910     0.0928      0.0927</p>
+<p>1  2026-09-29 18:00:00+00:00      -1.89     0.0929     0.0937      0.0949</p>
+<p>2  2026-09-28 17:00:00+00:00      -1.71     0.0929     0.0935      0.0951</p>
+<p>3  2026-09-28 22:00:00+00:00      -1.69     0.0935     0.0922      0.0932</p>
+<p>4  2026-09-30 17:00:00+00:00      -1.57     0.0949     0.0940      0.0933</p>
+</div>
+<div class='card'>
+<h2>Actividad 25 — Distribución de cambios horarios</h2>
+<p>Mediana: 0.000%. Los cambios extremos fueron poco frecuentes (cola de distribución); la mayoría se concentra cerca de 0.</p>
+<img src='../charts/act25_hist.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 26 — Movimiento vs volumen ticks</h2>
+<p>Dispersión de |cambio % horario| frente a tick_volume. Correlación: 0.635. No implica causalidad.</p>
+<img src='../charts/act26_scatter.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 27 — Diferencia compra-venta</h2>
+<p>Observaciones nuevas de bid/ask durante una sesión (separadas 5 s):</p>
+<p>                         utc     bid     ask  spread</p>
+<p>0  2026-10-05 02:11:22+00:00  0.0959  0.0968  0.0009</p>
+<p>1  2026-10-05 02:11:22+00:00  0.0959  0.0968  0.0009</p>
+<p>2  2026-10-05 02:11:22+00:00  0.0959  0.0968  0.0009</p>
+<p>3  2026-10-05 02:11:22+00:00  0.0959  0.0968  0.0009</p>
+<p>4  2026-10-05 02:11:22+00:00  0.0959  0.0968  0.0009</p>
+<p>Los datos históricos de velas no sustituyen estas mediciones. Spread promedio: 0.0009 USD.</p>
+<img src='../charts/act27_spread.png' width='900'><br>
+</div>
+<div class='card'>
+<h2>Actividad 28 — Comparación de semanas</h2>
+<p>                             open   close    high     low    vol  change_pct</p>
+<p>time                                                                        </p>
+<p>2026-09-13 00:00:00+00:00  0.0899  0.0841  0.0914  0.0819  17294   -6.451613</p>
+<p>2026-09-20 00:00:00+00:00  0.0839  0.0869  0.0908  0.0779  19774    3.575685</p>
+<p>2026-09-27 00:00:00+00:00  0.0868  0.0965  0.1053  0.0857  46553   11.175115</p>
+<p>2026-10-04 00:00:00+00:00  0.0966  0.0954  0.0977  0.0899  27022   -1.242236</p>
+<p>| Filas=4 semanas.</p>
+</div>
+<div class='card'>
+<h2>Actividad 29 — Actualización del reporte</h2>
+<p>Nueva ejecución en segundo plano y versión actualizada del Excel (v2) conservando la fecha de generación de cada archivo para evitar confusiones.</p>
+</div>
+<div class='card'>
+<h2>Actividad 30 — Reporte consolidado</h2>
+<p>Excel final consolidado con hojas ['Velas_LINK', 'Resumen_diario', 'Mayores_movimientos', 'Calidad', 'Metadatos', 'Rachas', 'Cambios_acumulados', 'Comparacion_semanas', 'Seguimiento_tareas']. Verificación al releer: {'Velas_LINK': {'rows': 168, 'expected': 168, 'ok': True}, 'Resumen_diario': {'rows': 7, 'expected': 7, 'ok': True}, 'Mayores_movimientos': {'rows': 10, 'expected': 10, 'ok': True}, 'Calidad': {'rows': 1, 'expected': 1, 'ok': True}, 'Metadatos': {'rows': 1, 'expected': 1, 'ok': True}, 'Rachas': {'rows': 2, 'expected': 2, 'ok': True}, 'Cambios_acumulados': {'rows': 168, 'expected': 168, 'ok': True}, 'Comparacion_semanas': {'rows': 4, 'expected': 4, 'ok': True}, 'Seguimiento_tareas': {'rows': 4, 'expected': 4, 'ok': True}, '_extra_sheets': [], '_missing_sheets': []}. Gráficas generadas: 19.</p>
+</div>
+<footer>Informe de consulta y análisis · MetaTrader5 · pandas · Celery · Matplotlib. Proyecto de solo lectura — sin compras ni ventas.</footer>
+</div></body></html>

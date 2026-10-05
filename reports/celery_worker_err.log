@@ -1,0 +1,30 @@
+[2026-10-04 18:11:29,723: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2026-10-04 18:11:29,723: INFO/MainProcess] mingle: searching for neighbors
+[2026-10-04 18:11:30,728: INFO/MainProcess] mingle: all alone
+[2026-10-04 18:11:30,744: INFO/MainProcess] celery@DESKTOP-4C7TVO3 ready.
+[2026-10-04 18:11:30,915: INFO/MainProcess] Task tasks.consulta_velas[b78ea84f-3e0f-49eb-a096-bfe40ebc8b5e] received
+[2026-10-04 18:11:30,963: INFO/MainProcess] Task tasks.consulta_velas[b78ea84f-3e0f-49eb-a096-bfe40ebc8b5e] succeeded in 0.0470000000022992s: {'ok': True, 'symbol': 'DOGUSD', 'registros': 168, 'periodo_real': ['2026-09-28 00:00:00+00:00', '2026-10-04 23:00:00+00:00']}
+[2026-10-04 18:11:44,921: INFO/MainProcess] Task tasks.consulta_velas[ced541c9-14c8-479d-bdb7-c4a179421840] received
+[2026-10-04 18:11:44,956: INFO/MainProcess] Task tasks.consulta_velas[ced541c9-14c8-479d-bdb7-c4a179421840] succeeded in 0.031000000002677552s: {'ok': True, 'symbol': 'DOGUSD', 'registros': 168, 'periodo_real': ['2026-09-28 00:00:00+00:00', '2026-10-04 23:00:00+00:00']}
+[2026-10-04 18:11:44,956: INFO/MainProcess] Task tasks.consulta_velas[d7f15773-8c02-4830-9c1d-b0d63ad8fdf6] received
+[2026-10-04 18:11:44,978: INFO/MainProcess] Task tasks.consulta_velas[d7f15773-8c02-4830-9c1d-b0d63ad8fdf6] succeeded in 0.030999999999039574s: {'ok': True, 'symbol': 'DOGUSD', 'registros': 25, 'periodo_real': ['2025-01-01 00:00:00+00:00', '2025-01-02 00:00:00+00:00']}
+[2026-10-04 18:11:45,460: INFO/MainProcess] Task tasks.generar_graficas[abedce38-c73c-45d1-9762-524bf7a958fc] received
+[2026-10-04 18:11:45,747: INFO/MainProcess] Task tasks.generar_graficas[abedce38-c73c-45d1-9762-524bf7a958fc] succeeded in 0.2809999999990396s: {'ok': True, 'symbol': 'DOGUSD', 'graficas': ['C:\Users\USER\Documents\Proyecto predeterminado\DOG\DOGUSD\charts\dogusd_cierre_h1.png']}
+[2026-10-04 18:11:45,963: INFO/MainProcess] Task tasks.elaborar_excel[d99c5392-b5ed-4526-b33a-ba28c3ad7721] received
+[2026-10-04 18:11:46,285: INFO/MainProcess] Task tasks.elaborar_excel[d99c5392-b5ed-4526-b33a-ba28c3ad7721] succeeded in 0.31199999999807915s: {'ok': True, 'excel': 'C:\Users\USER\Documents\Proyecto predeterminado\DOG\DOGUSD\reports\reporte_dogusd.xlsx', 'hojas': ['Velas_dogusd', 'Resumen_diario', 'Calidad', 'Metadatos']}
+[2026-10-04 19:38:39,675: INFO/MainProcess] Task tasks.consulta_velas[72bfe241-0562-44b5-997a-26e557db4603] received
+[2026-10-04 19:38:39,719: INFO/MainProcess] Task tasks.consulta_velas[72bfe241-0562-44b5-997a-26e557db4603] succeeded in 0.046999999998661224s: {'ok': True, 'symbol': 'DOGUSD', 'registros': 168, 'periodo_real': ['2026-09-28 01:00:00+00:00', '2026-10-05 00:00:00+00:00']}
+[2026-10-04 19:38:40,176: INFO/MainProcess] Task tasks.consulta_velas[a4507b83-5c07-4254-9256-cfe7d2adfa22] received
+[2026-10-04 19:38:40,200: INFO/MainProcess] Task tasks.consulta_velas[a4507b83-5c07-4254-9256-cfe7d2adfa22] succeeded in 0.030999999995401595s: {'ok': True, 'symbol': 'DOGUSD', 'registros': 25, 'periodo_real': ['2025-01-01 00:00:00+00:00', '2025-01-02 00:00:00+00:00']}
+[2026-10-04 19:38:40,677: INFO/MainProcess] Task tasks.generar_graficas[a8062c17-dab7-42c5-90c6-15760fa78217] received
+[2026-10-04 19:38:40,847: INFO/MainProcess] Task tasks.generar_graficas[a8062c17-dab7-42c5-90c6-15760fa78217] succeeded in 0.1569999999992433s: {'ok': True, 'symbol': 'DOGUSD', 'graficas': ['C:\Users\USER\Documents\Proyecto predeterminado\DOG\DOGUSD\charts\dogusd_cierre_h1.png']}
+[2026-10-04 19:38:41,183: INFO/MainProcess] Task tasks.elaborar_excel[3fd4e979-8fd6-44b2-9712-c76eccf97bc3] received
+[2026-10-04 19:38:41,277: INFO/MainProcess] Task tasks.elaborar_excel[3fd4e979-8fd6-44b2-9712-c76eccf97bc3] succeeded in 0.09399999999732245s: {'ok': True, 'excel': 'C:\Users\USER\Documents\Proyecto predeterminado\DOG\DOGUSD\reports\reporte_dogusd.xlsx', 'hojas': ['Velas_dogusd', 'Resumen_diario', 'Calidad', 'Metadatos']}
+[2026-10-04 19:59:05,297: INFO/MainProcess] Task tasks.consulta_velas[e836451b-b962-456b-a17f-f6914c59ebfc] received
+[2026-10-04 19:59:05,321: INFO/MainProcess] Task tasks.consulta_velas[e836451b-b962-456b-a17f-f6914c59ebfc] succeeded in 0.030999999995401595s: {'ok': True, 'symbol': 'DOGUSD', 'registros': 168, 'periodo_real': ['2026-09-28 01:00:00+00:00', '2026-10-05 00:00:00+00:00']}
+[2026-10-04 19:59:05,324: INFO/MainProcess] Task tasks.consulta_velas[e7eaa9d5-9a13-4660-a0c7-4f7e2a39c03d] received
+[2026-10-04 19:59:05,345: INFO/MainProcess] Task tasks.consulta_velas[e7eaa9d5-9a13-4660-a0c7-4f7e2a39c03d] succeeded in 0.01600000000325963s: {'ok': True, 'symbol': 'DOGUSD', 'registros': 25, 'periodo_real': ['2025-01-01 00:00:00+00:00', '2025-01-02 00:00:00+00:00']}
+[2026-10-04 19:59:05,827: INFO/MainProcess] Task tasks.generar_graficas[0e5858fc-d0e4-4400-920a-0a11e6afb589] received
+[2026-10-04 19:59:05,977: INFO/MainProcess] Task tasks.generar_graficas[0e5858fc-d0e4-4400-920a-0a11e6afb589] succeeded in 0.14100000000325963s: {'ok': True, 'symbol': 'DOGUSD', 'graficas': ['C:\Users\USER\Documents\Proyecto predeterminado\DOG\DOGUSD\charts\dogusd_cierre_h1.png']}
+[2026-10-04 19:59:06,330: INFO/MainProcess] Task tasks.elaborar_excel[5ebcd969-f509-4249-80b5-0a9c3f7baf2f] received
+[2026-10-04 19:59:06,398: INFO/MainProcess] Task tasks.elaborar_excel[5ebcd969-f509-4249-80b5-0a9c3f7baf2f] succeeded in 0.06300000000192085s: {'ok': True, 'excel': 'C:\Users\USER\Documents\Proyecto predeterminado\DOG\DOGUSD\reports\reporte_dogusd.xlsx', 'hojas': ['Velas_dogusd', 'Resumen_diario', 'Calidad', 'Metadatos']}

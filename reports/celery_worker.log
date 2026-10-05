@@ -1,0 +1,21 @@
+ 
+ -------------- celery@DESKTOP-4C7TVO3 v5.6.3 (recovery)
+--- ***** ----- 
+-- ******* ---- Windows-11-10.0.26300-SP0 2026-10-04 18:11:29
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         link_tasks:0x280fab1ff80
+- ** ---------- .> transport:   redis://127.0.0.1:6379/0
+- ** ---------- .> results:     redis://127.0.0.1:6379/1
+- *** --- * --- .> concurrency: 8 (solo)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . tasks.consulta_velas
+  . tasks.elaborar_excel
+  . tasks.generar_graficas
+
